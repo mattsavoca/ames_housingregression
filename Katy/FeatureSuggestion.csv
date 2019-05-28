@@ -1,0 +1,53 @@
+,unique,set,mode,mode%,NAs,dummyLRscore,ovaLRscore,quantLRscore,suggest
+MSSubClass,15,"['60' '20' '70' '50' '190' '45' '90' '120' '30' '85' '80' '160' '75' '180'
+ '40']",20,36.71,0,0.2463,0.0017,0,dummify
+MSZoning,5,['RL' 'RM' 'C (all)' 'FV' 'RH'],RL,78.84,0,0.1076,0.0601,0,dummify
+Street,2,['Pave' 'Grvl'],Pave,99.59,0,0.0017,0.0017,0,binary
+LotShape,4,['Reg' 'IR1' 'IR2' 'IR3'],Reg,63.36,0,0.0764,0.0716,0,1vA
+LandContour,4,['Lvl' 'Bnk' 'Low' 'HLS'],Lvl,89.79,0,0.0258,0.0008,0,dummify
+Utilities,2,['AllPub' 'NoSeWa'],AllPub,99.93,0,0.0002,0.0002,0,binary
+LotConfig,5,['Inside' 'FR2' 'Corner' 'CulDSac' 'FR3'],Inside,72.05,0,0.021,0.0065,0,dummify
+LandSlope,3,['Gtl' 'Mod' 'Sev'],Gtl,94.66,0,0.0027,0.0026,0,1vA
+Neighborhood,25,"['CollgCr' 'Veenker' 'Crawfor' 'NoRidge' 'Mitchel' 'Somerst' 'NWAmes'
+ 'OldTown' 'BrkSide' 'Sawyer' 'NridgHt' 'NAmes' 'SawyerW' 'IDOTRR'
+ 'MeadowV' 'Edwards' 'Timber' 'Gilbert' 'StoneBr' 'ClearCr' 'NPkVill'
+ 'Blmngtn' 'BrDale' 'SWISU' 'Blueste']",NAmes,15.41,0,0.5456,0.0355,0,dummify
+Condition1,9,['Norm' 'Feedr' 'PosN' 'Artery' 'RRAe' 'RRNn' 'RRAn' 'PosA' 'RRNe'],Norm,86.3,0,0.0326,0.0128,0,dummify
+Condition2,8,['Norm' 'Artery' 'RRNn' 'Feedr' 'PosN' 'PosA' 'RRAn' 'RRAe'],Norm,98.97,0,0.0099,0.0009,0,1vA
+BldgType,5,['1Fam' '2fmCon' 'Duplex' 'TwnhsE' 'Twnhs'],1Fam,83.56,0,0.0345,0.0189,0,dummify
+HouseStyle,8,['2Story' '1Story' '1.5Fin' '1.5Unf' 'SFoyer' 'SLvl' '2.5Unf' '2.5Fin'],1Story,49.73,0,0.0863,0.0038,0,dummify
+OverallCond,9,['5' '8' '6' '7' '4' '2' '3' '9' '1'],5,56.23,0,0.1254,0.1006,0.0061,dummify
+RoofStyle,6,['Gable' 'Hip' 'Gambrel' 'Mansard' 'Flat' 'Shed'],Gable,78.15,0,0.0577,0.0505,0,1vA
+RoofMatl,8,"['CompShg' 'WdShngl' 'Metal' 'WdShake' 'Membran' 'Tar&Grv' 'Roll'
+ 'ClyTile']",CompShg,98.22,0,0.0314,0.0109,0,dummify
+Exterior1st,15,"['VinylSd' 'MetalSd' 'Wd Sdng' 'HdBoard' 'BrkFace' 'WdShing' 'CemntBd'
+ 'Plywood' 'AsbShng' 'Stucco' 'BrkComm' 'AsphShn' 'Stone' 'ImStucc'
+ 'CBlock']",VinylSd,35.27,0,0.1528,0.093,0,dummify
+Exterior2nd,16,"['VinylSd' 'MetalSd' 'Wd Shng' 'HdBoard' 'Plywood' 'Wd Sdng' 'CmentBd'
+ 'BrkFace' 'Stucco' 'AsbShng' 'Brk Cmn' 'ImStucc' 'AsphShn' 'Stone'
+ 'Other' 'CBlock']",VinylSd,34.52,0,0.1538,0.0939,0,dummify
+MasVnrType,4,['BrkFace' 'None' 'Stone' 'BrkCmn'],None,59.73,0,0.1833,0.135,0,dummify
+ExterQual,4,['Gd' 'TA' 'Ex' 'Fa'],TA,62.05,0,0.4774,0.347,0.466,dummify
+ExterCond,5,['TA' 'Gd' 'Fa' 'Po' 'Ex'],TA,87.81,0,0.0236,0.0111,0.0004,dummify
+Foundation,6,['PConc' 'CBlock' 'BrkTil' 'Wood' 'Slab' 'Stone'],PConc,44.32,0,0.2564,0.2477,0,1vA
+BsmtQual,5,['Gd' 'TA' 'Ex' 'None' 'Fa'],TA,44.45,0,0.465,0.2047,0.3425,dummify
+BsmtCond,5,['TA' 'Gd' 'None' 'Fa' 'Po'],TA,89.79,0,0.0514,0.0103,0.0452,quantify
+BsmtExposure,5,['No' 'Gd' 'Mn' 'Av' 'None'],No,65.27,0,0.1495,0.0695,0,dummify
+BsmtFinType1,7,['GLQ' 'ALQ' 'Unf' 'Rec' 'BLQ' 'None' 'LwQ'],Unf,29.45,0,0.2108,0.007,0,dummify
+BsmtFinType2,7,['Unf' 'BLQ' 'None' 'ALQ' 'Rec' 'LwQ' 'GLQ'],Unf,86.03,0,0.0303,0.0139,0,dummify
+Heating,6,['GasA' 'GasW' 'Grav' 'Wall' 'OthW' 'Floor'],GasA,97.81,0,0.0144,0.0086,0,1vA
+HeatingQC,5,['Ex' 'Gd' 'TA' 'Fa' 'Po'],Ex,50.75,0,0.1955,0.1888,0.1829,1vA
+CentralAir,2,['Y' 'N'],Y,93.49,0,0.0632,0.0632,0,binary
+Electrical,6,['SBrkr' 'FuseF' 'FuseA' 'FuseP' 'Mix' 'Unknown'],SBrkr,91.37,0,0.0597,0.0585,0,1vA
+KitchenQual,4,['Gd' 'TA' 'Ex' 'Fa'],TA,50.34,0,0.4566,0.2697,0.4351,dummify
+Functional,7,['Typ' 'Min1' 'Maj1' 'Min2' 'Mod' 'Maj2' 'Sev'],Typ,93.15,0,0.0165,0.0136,0,1vA
+FireplaceQu,6,['None' 'TA' 'Gd' 'Fa' 'Ex' 'Po'],None,47.26,0,0.294,0.2227,0.2709,dummify
+GarageType,7,['Attchd' 'Detchd' 'BuiltIn' 'CarPort' 'None' 'Basment' '2Types'],Attchd,59.59,0,0.2492,0.1129,0,dummify
+GarageFinish,4,['RFn' 'Unf' 'Fin' 'None'],Unf,41.44,0,0.3059,0.1686,0,dummify
+GarageQual,6,['TA' 'Fa' 'Gd' 'None' 'Ex' 'Po'],TA,89.79,0,0.0814,0.0602,0.075,quantify
+GarageCond,6,['TA' 'Fa' 'None' 'Gd' 'Po' 'Ex'],TA,90.82,0,0.0813,0.0761,0.0693,1vA
+PavedDrive,3,['Y' 'N' 'P'],Y,91.78,0,0.0545,0.0538,0,1vA
+MoSold,12,['2' '5' '9' '12' '10' '8' '11' '4' '1' '7' '3' '6'],6,17.33,0,0.0072,0.0004,0,1vA
+SaleType,9,['WD' 'New' 'COD' 'ConLD' 'ConLI' 'CWD' 'ConLw' 'Con' 'Oth'],WD,86.78,0,0.1373,0.0589,0,dummify
+SaleCondition,6,['Normal' 'Abnorml' 'Partial' 'AdjLand' 'Alloca' 'Family'],Normal,82.05,0,0.1355,0.0237,0,dummify
+Season,4,['Winter' 'Spring' 'Fall' 'Summer'],Summer,41.71,0,0.0035,0.0002,0,1vA

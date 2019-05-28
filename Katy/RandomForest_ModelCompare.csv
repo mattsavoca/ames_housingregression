@@ -1,0 +1,9 @@
+,Score,Mean Abs Err,Comptime,MaxFeatures,Top5
+Nocat,0.9811,6457.24,37.085362911224365,8,"[('OverallQual', 0.18), ('GrLivArea', 0.14), ('GarageCars', 0.11), ('TotalBsmtSF', 0.08), ('YearBuilt', 0.07)]"
+Nocat_log,0.9808,0.04,40.66909694671631,9,"[('OverallQual', 0.19), ('GrLivArea', 0.16), ('YearBuilt', 0.1), ('TotalBsmtSF', 0.06), ('GarageArea', 0.06)]"
+Dumcat,0.979,6234.19,22.674093008041382,23,"[('OverallQual', 0.09), ('GrLivArea', 0.08), ('ExterQual_TA', 0.06), ('YearBuilt', 0.05), ('TotalBsmtSF', 0.05)]"
+Dumcat_log,0.9829,0.03,25.541720390319824,23,"[('OverallQual', 0.08), ('GrLivArea', 0.08), ('YearBuilt', 0.07), ('ExterQual_TA', 0.06), ('TotalBsmtSF', 0.05)]"
+Qcat,0.9812,6438.63,31.917457580566406,16,"[('OverallQual', 0.28), ('GrLivArea', 0.13), ('ExterQual', 0.09), ('GarageCars', 0.08), ('TotalBsmtSF', 0.05)]"
+Qcat_log,0.9821,0.03,34.39102363586426,10,"[('OverallQual', 0.21), ('GrLivArea', 0.12), ('YearBuilt', 0.08), ('ExterQual', 0.08), ('TotalBsmtSF', 0.05)]"
+Optcat,0.9803,6293.93,26.206964015960693,17,"[('OverallQual', 0.1), ('IndoorSF', 0.08), ('1stFlrSF', 0.05), ('GrLivArea', 0.05), ('ExterQual_TA', 0.05)]"
+Optcat_log,0.9828,0.03,25.04984402656555,18,"[('OverallQual', 0.09), ('IndoorSF', 0.09), ('GrLivArea', 0.05), ('YearBuilt', 0.04), ('TotalBsmtSF', 0.04)]"
